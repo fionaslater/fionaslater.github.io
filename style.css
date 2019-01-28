@@ -47,6 +47,10 @@ a:hover, a:active {
     .outer-container {
         padding-left: 80px;
     }
+
+    .logo-ul {
+        margin-left: 0px
+    }
 }
 
 @media screen and (min-width: 768px) {
