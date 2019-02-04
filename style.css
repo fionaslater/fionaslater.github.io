@@ -355,6 +355,7 @@ a:hover, a:active {
 .portfolio-content {
     position: relative;
     margin-bottom: 30px;
+    width: 50%;
 }
 
 .home-page {
@@ -739,6 +740,10 @@ a:hover, a:active {
 
     .blog-page .blog-content .entry-content h3 {
         line-height: 1;
+    }
+
+    .portfolio-content {
+      width: 100%;
     }
 }
 
