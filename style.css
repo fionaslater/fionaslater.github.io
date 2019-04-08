@@ -51,6 +51,7 @@ a:hover, a:active {
     .logo-ul {
         margin-left: 0px
     }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -244,6 +245,7 @@ a:hover, a:active {
         padding: 80px 15px 30px;
         margin: 0;
     }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -354,8 +356,8 @@ a:hover, a:active {
 
 .portfolio-content {
     position: relative;
-    margin-bottom: 30px;
-    width: 50%;
+    margin: 0px 7.5px 15px 7.5px;
+    width: 31.2%;
 }
 
 .home-page {
@@ -774,6 +776,12 @@ a:hover, a:active {
     }
 }
 
+@media screen and (max-width: 992px) and (min-width: 550px) {
+  .portfolio-content {
+    width: 47%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Single Blog Page
 --------------------------------------------------------------*/
@@ -1098,4 +1106,14 @@ a:hover, a:active {
 
 .single-page .entry-header .byline .date-format a {
     color: #bfbfbf;
+}
+
+.name-logo {
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .name-logo {
+    padding-left: 8px;
+  }
 }
