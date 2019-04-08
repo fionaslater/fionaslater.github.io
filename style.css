@@ -1117,3 +1117,22 @@ a:hover, a:active {
     padding-left: 8px;
   }
 }
+.title-ul {
+  padding: 0px;
+}
+
+.line-nav {
+  text-align: right;
+  margin-right: 20px;
+
+}
+
+@media screen and (max-width: 576px) {
+  .line-nav {
+    visibility: hidden;
+  }
+}
+
+p {
+  display: inline;
+}
