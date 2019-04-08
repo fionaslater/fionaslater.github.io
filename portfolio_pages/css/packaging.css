@@ -1106,7 +1106,7 @@ a:hover, a:active {
 
 .line-nav {
   text-align: right;
-  margin-right: 10px;
+  margin-right: 20px;
 
 }
 
@@ -1132,4 +1132,14 @@ a:hover {
 
 p {
   display: inline;
+}
+
+.name-logo {
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .name-logo {
+    padding-left: 8px;
+  }
 }
