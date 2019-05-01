@@ -1146,3 +1146,23 @@ a:hover {
 p {
   display: inline;
 }
+
+.col-50 {
+    max-width: 50%;
+}
+
+.col-33 {
+    max-width: 33.3%;
+}
+
+@media screen and (max-width: 576px) {
+    .col-33 {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .col-50 {
+        max-width: 100%;
+    }
+}
