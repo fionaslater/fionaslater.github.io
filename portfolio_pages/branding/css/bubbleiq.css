@@ -1146,3 +1146,7 @@ a:hover {
 p {
   display: inline;
 }
+
+.scroll:hover {
+    color: #E8800F;
+}
